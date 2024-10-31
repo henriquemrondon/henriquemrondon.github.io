@@ -1,0 +1,79 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; /* Mantendo a fonte padrão para o corpo */
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;    
+}
+
+footer img {
+    width: 40px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+footer p {
+    margin-top: 2px;
+    font-size: 14px; /* Tamanho da fonte corrigido */
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+/* Aplicando Quicksand somente aos títulos e ao link "Minha Página" */
+h1, h2, h3, nav a {
+    font-family: 'Quicksand', sans-serif; /* Fonte Quicksand para títulos e link */
+}
+
+nav a {
+    font-weight: bold; /* Deixando o texto "Minha Página" em negrito */
+}
+
+.contact {
+    margin-top: 20px; /* Espaço acima do contato */
+}
+
+.contact p {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte padrão para o contato */
+}
+
+.contact a {
+    color: white; /* Mudando a cor do texto para branco */
+    text-decoration: none; /* Removendo o sublinhado */
+}
+
+.contact a:hover {
+    color: #ccc; /* Cor ao passar o mouse, se desejado */
+}
